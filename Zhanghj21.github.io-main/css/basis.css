@@ -1,0 +1,58 @@
+body {
+    background: rgb(160, 159, 159);
+    line-height: 2;
+    min-width: 1600px;
+    cursor:url(../car.ico),auto;
+    /* 设置网页背景与行高 */
+}
+
+.menu-navigation {
+    width: 100%;
+}
+
+.menu-navigation li {
+    float: left;
+}
+
+.menu-navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 22px;
+    /* 设置a标签的样式 */
+}
+
+.menu-navigation a:hover {
+    color: #bcc90b;
+    /* a元素的伪类选择器 */
+}
+
+.menu-navigation a:active {
+    color: #18081a;
+    /* a元素的伪类选择器 */
+}
+
+.menu-firstli {
+    margin-left: 55px;
+}
+
+.article-container {
+    background: white;
+    width: 90%;
+    margin: 100px auto;
+    /* 设置article的样式 */
+}
+footer {
+    background: gray;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin:-100px auto 100px auto;
+     /* 页尾样式 */
+}
+ footer span {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    
+}

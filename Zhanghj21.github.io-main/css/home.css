@@ -1,0 +1,87 @@
+.article-container header {
+    background: gray;
+    color: #fff;
+    text-align: center;
+}
+
+.article-container header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.article-container header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.article-container header a:hover {
+    color: #c9d60c;
+}
+
+.article-container header a:active {
+    color: #18081a;
+}
+
+.line-center {
+    display: table;
+    margin: auto;
+}
+
+.box {
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    color: gray;
+    font-weight: 600;
+    margin: 50px;
+    border: 4px groove gray;
+    vertical-align: middle;
+    overflow-y: auto;
+}
+.box .information{
+    margin-top: 50px;
+}
+.box p{
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+.box p b{
+    font-size: 25px;
+    color: gray;
+}
+.article-container h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.article-container h3 {
+    text-align: center;
+    color: grey;
+}
+
+.back-span {
+    float: right;
+    font-size: 25px;
+}
+.fixed{
+    position: fixed;
+    margin-top: 200px ;
+    margin-left: 10px;
+}
+.fixed a{
+    color: #fff;
+    text-decoration: none;
+}
+.fixed a:hover {
+    color: #c9d60c;
+}
+
+.fixed a:active {
+    color: #18081a;
+}
